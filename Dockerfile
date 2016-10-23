@@ -6,7 +6,7 @@ MAINTAINER John
 
 RUN yum install httpd -y
 
-RUN echo ‘I love this instructor.’ >
+RUN echo ‘I love this instructor. hahaha’ >
 /var/www/html/index.html
 
 EXPOSE 80 443
